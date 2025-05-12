@@ -1,0 +1,21 @@
+
+{
+    "title": "Primary Enrollment and GDP data for Canada",
+    "description": "Primary Enrollment and GDP data for Canada for the years 2001-2020",
+ 
+   "type": "object",
+   "properties": {
+      "Year": {
+         "description": "The years for the data (2001-2020)",
+         "type": "integer"
+      },
+      "Primary Enrollment": {
+         "description": "The primary enrollment data for Canada for the years 2001-2020",
+         "type": "float"
+      },
+      "GDP": {
+         "type": "flow",
+         "description": "The GDP data for Canada for the years 2001-2020",
+      }
+   },
+   "required": ["Year", "Primary Enrollment", "GDP"]
